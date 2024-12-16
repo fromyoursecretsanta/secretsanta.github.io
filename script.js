@@ -27,21 +27,29 @@ document.addEventListener("DOMContentLoaded", function () {
         box.id = `box${i + 1}`;
         const isUnlocked = today >= boxDate;
 
+        // Initially, set content to be hidden
+        const content = `
+            <div class="content" style="display: none;">
+                <p>${isUnlocked ? surprises[i] : "Wait for this day!"}</p>
+            </div>
+        `;
+
         box.innerHTML = `
             <div class="cover">${boxDate.toLocaleDateString("en-US", {
                 day: "numeric",
                 month: "long",
             })}</div>
-            <div class="content" style="display: ${isUnlocked ? "block" : "none"};">
-                <p>${isUnlocked ? surprises[i] : "Wait for this day!"}</p>
-            </div>
+            ${content}
         `;
+
         boxesContainer.appendChild(box);
 
-        // Add click event to open the box in full screen
-        box.addEventListener("click", () => {
+        // Add click event to reveal the surprise when clicked
+        box.addEventListener("click", function () {
             if (isUnlocked) {
                 box.classList.toggle("expanded");
+                const contentElement = box.querySelector(".content");
+                contentElement.style.display = contentElement.style.display === "none" ? "block" : "none";
             } else {
                 alert("Not yet! Wait for the right day!");
             }
