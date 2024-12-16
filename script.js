@@ -5,17 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const boxesContainer = document.querySelector(".container");
 
     const surprises = [
-        "Surprise for December 16th: Enjoy a festive treat! 🎄",
-        "Surprise for December 17th: A warm Christmas message from Santa! 🎅🏼",
-        "Surprise for December 18th: A cozy winter quote for you! ❄️",
-        "Surprise for December 19th: A holiday movie recommendation! 🍿",
-        "Surprise for December 20th: Time for some Christmas music! 🎶",
-        "Surprise for December 21st: A heartwarming Christmas story! 📖",
-        "Surprise for December 22nd: A surprise gift suggestion! 🎁",
-        "Surprise for December 23rd: A funny Christmas joke! 🎉",
-        "Surprise for December 24th: A holiday wish from your Secret Santa! 🎁",
-        "Surprise for December 25th: Merry Christmas! 🎄🎅🏼 Enjoy your day!"
-    ];
+        "Surprise for December 16th: May your heart be filled with the warmth of the Christmas spirit, and your home with love and laughter. Here's to making wonderful memories with the people you cherish most. Merry Christmas and a joyful New Year! 🎄",
+        "Surprise for December 17th: May your heart be filled with the warmth of the Christmas spirit, and your home with love and laughter. Here's to making wonderful memories with the people you cherish most. Merry Christmas and a joyful New Year! 🎅🏼",
+        "Surprise for December 18th: You are the warmth in the winter chill, the sparkle in the snow, and the beauty in every moment this holiday season. May your Christmas be as magical and radiant as you are."",
+        "Surprise for December 19th: A holiday movie recommendation! 'The Holiday' movie 7elw lih el christmas wi akid home alone 🍿",
+        "Surprise for December 20th: Time for some Christmas music! : Last Christmas' by Wham aw bih omar kamal, 'All I Want for Christmas Is You' by Mariah Carey, or 'Feliz Navidad' 🎶",
+        "Surprise for December 21st: A heartwarming Christmas story! mafi4 a7la men christmas carol wi tnf3 movie recmmendation 📖",
+        "Surprise for December 22nd: hint about your secret santa =  younger than you ",
+        "Surprise for December 23rd: hint about you surprise = more than one gift 🎁🎁",
+        "Surprise for December 24th: hint about your secret santa and your gift : m3aky fih el media / has a pretty smell",
+        "Surprise for December 25th: Merry Christmas, my dear friend! 🎅🏼 I hope this holiday season brings you lots of love, laughter, and everything your heart desires. May you find joy in every moment, and may the new year be filled with hope, happiness, and endless adventures. With love, your Secret Santa.""
+    ;
 
     const days = Math.floor((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
 
