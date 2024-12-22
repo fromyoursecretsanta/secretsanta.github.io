@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Surprise for December 21st: A heartwarming Christmas story! There's nothing better than 'A Christmas Carol' and also a great movie recommendation 📖",
         "Surprise for December 22nd: Hint about your Secret Santa = younger than you 🎁",
         "Surprise for December 23rd: Hint about your surprise = more than one gift 🎁🎁",
-        "Surprise for December 24th: Hint about your Secret Santa and your gift: m3aky fih el media / has a pretty smell 🎄",
+        "Surprise for December 24th: Hint about your Secret Santa: m3aky fih el media  🎄",
         "Surprise for December 25th: Merry Christmas, my dear friend! 🎅🏼 I hope this holiday season brings you lots of love, laughter, and everything your heart desires. May you find joy in every moment, and may the new year be filled with hope, happiness, and endless adventures. With love, your Secret Santa."
     ];
 
